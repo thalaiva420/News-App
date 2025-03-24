@@ -1,5 +1,4 @@
 # News-App
-# [Your News App Name]
 
 ## Description
 
