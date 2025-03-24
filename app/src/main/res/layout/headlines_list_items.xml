@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:elevation="6dp"
+    android:layout_margin="8dp"
+       >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="2"
+            android:layout_margin="8dp">
+            <TextView
+                android:id="@+id/text_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:maxLines="3"
+                android:outlineAmbientShadowColor="@color/material_dynamic_neutral70">
+
+            </TextView>
+            <TextView
+                android:id="@+id/text_source"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/material_dynamic_neutral40"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:maxLines="1"
+                android:layout_marginTop="3dp"
+                android:outlineAmbientShadowColor="@color/material_dynamic_neutral70">
+
+            </TextView>
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/img_headline"
+            android:layout_weight="1"
+            android:src="@drawable/not_available"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:scaleType="centerCrop">
+            
+        </ImageView>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

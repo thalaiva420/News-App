@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">News_Application</string>
+    <string name="news_api_key">dca13db43b6d440388b1d82381207510</string>
+    <string name="category">Category</string>
+    <string name="new_heading">New Heading</string>
+    <string name="sub_heading">Sub Heading</string>
+    <string name="health_url"><![CDATA[https://media.istockphoto.com/id/1303753164/photo/portrait-of-athletic-caucasian-attractive-fit-woman-dressed-in-top-and-leggins-against-stone.jpg?s=1024x1024&w=is&k=20&c=3IgA-qXaj7Y1a9F3sAvG5lnXFcZtM9ddqfgfGPXRPms=]]></string>
+    <string name="tecnology_url"><![CDATA[https://plus.unsplash.com/premium_photo-1683120966127-14162cdd0935?q=80&w=1926&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D]]></string>
+    <string name="business_url"><![CDATA[https://images.unsplash.com/photo-1665686306574-1ace09918530?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D]]></string>
+    <string name="entertainment_url"><![CDATA[https://images.unsplash.com/photo-1514525253161-7a46d19cd819?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D]]></string>
+    <string name="science_url"><![CDATA[https://plus.unsplash.com/premium_photo-1661432575489-b0400f4fea58?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D]]></string>
+    <string name="general_url"><![CDATA[https://images.unsplash.com/photo-1457369804613-52c61a468e7d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D]]></string>
+    <string name="all_url"><![CDATA[https://media.istockphoto.com/id/2165479623/photo/gray-coloured-pebbles-or-gravel-horizontal-photograph-with-variety-of-small-and-large-uneven.webp?a=1&b=1&s=612x612&w=0&k=20&c=rFIngWNA3XT0LAhIelKIVE-qokHxcft0aycbysj1gbQ=]]></string>
+    <string name="catergory_url"><![CDATA[https://newsapi.org/v2/top-headlines/sources?country=us&category="+category+"&apiKey=dca13db43b6d440388b1d82381207510]]></string>
+    <string name="allnews_url"><![CDATA[https://newsapi.org/v2/top-headlines?country=us&excludeDomain=stackoverflow.com&sortBy=publishedAt&language=en&apiKey=dca13db43b6d440388b1d82381207510]]></string>
+</resources>
